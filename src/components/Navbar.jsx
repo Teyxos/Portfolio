@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Navbar({ active }) {
+function Navbar() {
   return (
     <>
       <div className='navbar'>
@@ -13,7 +13,11 @@ function Navbar({ active }) {
         <li>
           <Link to='/projects'>Projects</Link>
         </li>
-        <li>text in here</li>
+        <li>
+          <a href='https://github.com/Teyxos' target='_blank'>
+            Github
+          </a>
+        </li>
       </div>
     </>
   );

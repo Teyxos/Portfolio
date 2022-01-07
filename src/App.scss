@@ -2,12 +2,16 @@ body {
   background-color: #282a36;
   color: #f8f8f8;
   font-family: system-ui;
+  height: 100vh;
 }
 
 .navbar {
   display: flex;
   width: 100%;
   gap: 1em;
+  background-color: #191a21;
+  padding: 2em;
+  font-size: 20px;
 
   > li {
     list-style-type: none;
@@ -15,11 +19,27 @@ body {
     > a {
       color: #f8f8f8;
       text-decoration: none;
+      transition: 0.5s transform;
 
       &:hover {
-        text-decoration: underline;
-        color: rgb(32, 93, 224);
+        color: #50fa7b;
+        transform: scale(1.2);
       }
     }
   }
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 25px;
 }
