@@ -1,0 +1,25 @@
+body {
+  background-color: #282a36;
+  color: #f8f8f8;
+  font-family: system-ui;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  gap: 1em;
+
+  > li {
+    list-style-type: none;
+
+    > a {
+      color: #f8f8f8;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: rgb(32, 93, 224);
+      }
+    }
+  }
+}
