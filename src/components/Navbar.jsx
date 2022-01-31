@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 
+import styles from '../scss/Navbar.module.scss';
+
 function Navbar() {
   return (
     <>
-      <div className='navbar'>
+      <div className={styles.navbar}>
         <li>
           <Link to='/'>Home</Link>
         </li>

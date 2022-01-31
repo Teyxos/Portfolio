@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  gap: 1em;
+  background-color: #191a21;
+  padding: 2em;
+  font-size: 20px;
+
+  > li {
+    list-style-type: none;
+
+    > a {
+      color: #f8f8f8;
+      text-decoration: none;
+      transition: 0.5s transform;
+
+      &:hover {
+        color: #50fa7b;
+        transform: scale(1.2);
+      }
+    }
+  }
+}

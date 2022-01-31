@@ -1,3 +1,5 @@
+import styles from '../scss/Home.module.scss';
+
 function Home() {
   return (
     <>
