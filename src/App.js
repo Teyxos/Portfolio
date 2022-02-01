@@ -9,7 +9,7 @@ import { ThemeContext } from './contexts/ThemeContext';
 function App() {
   return (
     <>
-      <ThemeContext.Provider>
+      <ThemeContext.Provider value={{}}>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />

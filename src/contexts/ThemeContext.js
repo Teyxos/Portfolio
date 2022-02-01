@@ -6,3 +6,4 @@ const theme = {
 };
 
 export const ThemeContext = React.createContext(theme);
+ThemeContext.displayName = 'ThemeContext';
