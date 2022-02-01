@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from '../scss/Navbar.module.scss';
-import { ThemeContext } from '../Context/ThemeContext';
+import { ThemeContext } from '../contexts/ThemeContext';
 
 function Navbar() {
   const theme = useContext(ThemeContext);
