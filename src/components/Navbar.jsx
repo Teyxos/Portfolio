@@ -32,6 +32,7 @@ function Navbar() {
       }
     }
   `;
+
   return (
     <>
       <NavWrapper style={{ theme }}>

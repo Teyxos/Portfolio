@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './components/Home';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import Projects from './pages/Projects';
 import { ThemeContext } from './contexts/ThemeContext';
 
 function App() {
