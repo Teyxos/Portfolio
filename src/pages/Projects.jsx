@@ -8,7 +8,7 @@ function Projects() {
       <h1>Projects</h1>
 
       <Carousel>
-        {Array(2, 3, 5, 7, 6).map((item, index) => (
+        {Array(2, 3).map((item, index) => (
           <ProjectCard key={index} props={item} />
         ))}
       </Carousel>
